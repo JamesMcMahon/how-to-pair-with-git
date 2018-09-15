@@ -24,7 +24,7 @@ It also appears to work with the `Signed-off-by` trailer. Have't tested more the
 
 Haven't tested but Gitlab has several issues open to support pairing:
 
-* [Utilize Co-authored-by convention in UX](Utilize Co-authored-by convention in UX)
+* [Utilize Co-authored-by convention in UX](https://gitlab.com/gitlab-org/gitlab-ce/issues/31640)
 * [Display commit co-authors alongside main author](https://gitlab.com/gitlab-org/gitlab-ce/issues/44986)
 
 Appears to still be WIP.
