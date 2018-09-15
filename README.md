@@ -49,7 +49,8 @@ git-together uses he `Signed-off-by` trailer to mark commits as having multiple 
 * Uses `Signed-off-by` instead of `Co-authored-by` by.
 * Alias the git command so that all git actions run through it. Not sure why, I think it is using this to amend `--signoff` to each commit.
 
-Note: can use `Co-authored-by` if used through [git-author](https://github.com/xinzweb/git-author).
+*Note: can use `Co-authored-by` if used through [git-author](https://github.com/xinzweb/git-author).*
+
 
 ### git-coauthor
 
@@ -85,6 +86,7 @@ Need to revisit as I haven't used in a while but it does have an experimental mo
 
 * Need to revisit, but it is odd that it has two distinct ways of operating.
 
+
 ### git-pair
 
 Repo: https://github.com/pivotal-legacy/git_scripts
@@ -102,6 +104,7 @@ Munages author string to be a concatenation of all authors on the commit.
 * Old and seemingly unmaintained.
 * Does not use trailers so authors with not be recognized by platforms like Github et al.
 
+*Note: Concatenated author shows up fairly well in Intellij.*
 
 ## License
 
