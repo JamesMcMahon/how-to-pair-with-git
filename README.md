@@ -46,7 +46,7 @@ git-together uses he `Signed-off-by` trailer to mark commits as having multiple 
 #### Limitations
 
 * Only supports two people on the commit at a time, rotates signed off between commits if there are more then 2 authors.
-* Uses `Signed-off-by` instead of `Co-authored-by` by.
+* Uses `Signed-off-by` instead of `Co-authored-by`.
 * Alias the git command so that all git actions run through it. Not sure why, I think it is using this to amend `--signoff` to each commit.
 
 *Note: can use `Co-authored-by` if used through [git-author](https://github.com/xinzweb/git-author).*
