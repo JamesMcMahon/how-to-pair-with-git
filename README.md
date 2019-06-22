@@ -10,6 +10,10 @@ How does Git enable pairing?
 * `Signed-off-by` - see [`--signoff`](https://git-scm.com/docs/git-commit#git-commit---signoff)
 * `Co-authored-by`
 
+### Future
+
+* [git-core feature request for multiple authors for a single commit](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=451880)
+
 ## Platforms
 
 ### Github
