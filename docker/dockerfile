@@ -1,0 +1,11 @@
+FROM ubuntu:18.04
+
+RUN apt-get update && \
+    apt-get install -y git && \
+    apt-get clean && \
+    mkdir git-test && \
+    cd git-test && \
+    git init && \
+    echo "test 1" > file1 && \
+    git add -A && \
+    git commit -m "heyo" \
